@@ -15,7 +15,7 @@ import commons.BasePage;
 import pageObjects.HomePageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_02_Register_Page_Object extends BasePage {
+public class Level_02_Register_Page_Object {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	HomePageObject homePage;
@@ -51,6 +51,7 @@ public class Level_02_Register_Page_Object extends BasePage {
 
 	@Test
 	public void TC_02_Register_Invalid_Email() {
+		homePage.clickToRegisterLink();
 		registerPage.inputToFirstnameTextbox(firstname);
 		registerPage.inputToLastnameTextbox(lastname);
 		registerPage.inputToEmailTextbox("123@456@#$");
@@ -62,6 +63,7 @@ public class Level_02_Register_Page_Object extends BasePage {
 
 	@Test
 	public void TC_03_Register_Success() {
+		homePage.clickToRegisterLink();
 		registerPage.inputToFirstnameTextbox(firstname);
 		registerPage.inputToLastnameTextbox(lastname);
 		registerPage.inputToEmailTextbox(emailAddress);
@@ -69,7 +71,6 @@ public class Level_02_Register_Page_Object extends BasePage {
 		registerPage.inputToConfirmPasswordTextbox(password);
 		registerPage.clickToRegisterButton();
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
-		registerPage.clickToLogoutLink();
 
 	}
 
@@ -88,6 +89,7 @@ public class Level_02_Register_Page_Object extends BasePage {
 
 	@Test
 	public void TC_05_Register_Password_Less_Than_6_Chars() {
+		homePage.clickToRegisterLink();
 		registerPage.inputToFirstnameTextbox(firstname);
 		registerPage.inputToLastnameTextbox(lastname);
 		registerPage.inputToEmailTextbox(emailAddress);
@@ -100,6 +102,7 @@ public class Level_02_Register_Page_Object extends BasePage {
 
 	@Test
 	public void TC_06_Register_Invalid_Confirm_Password() {
+		homePage.clickToRegisterLink();
 		registerPage.inputToFirstnameTextbox(firstname);
 		registerPage.inputToLastnameTextbox(lastname);
 		registerPage.inputToEmailTextbox(emailAddress);
