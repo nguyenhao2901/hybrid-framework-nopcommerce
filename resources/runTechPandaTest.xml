@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce">
+<suite name="TechPanda">
 	<test name="Run on Firefox">
 	<parameter name="browserName" value="firefox" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_05_Login_Apply_Generator_Manager" />
+			<class name="com.techpanda.user.User01_Register_And_Login" />
 		</classes>
 	</test>
 	

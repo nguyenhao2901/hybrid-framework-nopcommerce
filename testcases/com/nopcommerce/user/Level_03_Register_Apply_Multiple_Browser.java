@@ -13,7 +13,7 @@ import commons.BaseTest;
 import pageObjects.HomePageObject;
 import pageObjects.RegisterPageObject;
 
-public class Level_03_Multiple_Browser extends BaseTest {
+public class Level_03_Register_Apply_Multiple_Browser extends BaseTest {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	HomePageObject homePage;

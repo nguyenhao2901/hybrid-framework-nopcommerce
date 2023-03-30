@@ -3,7 +3,6 @@ package com.nopcommerce.user;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
@@ -13,7 +12,7 @@ import org.testng.annotations.Test;
 
 import commons.BasePage;
 
-public class User_01_Register extends BasePage {
+public class Level_01_Register_Apply_BasePage extends BasePage {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	String emailAddress;

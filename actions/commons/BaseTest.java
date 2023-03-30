@@ -1,5 +1,6 @@
 package commons;
 
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -7,7 +8,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.opera.OperaDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -56,5 +56,10 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		return driver;
 
+	}
+
+	protected int generatorFakeNumber() {
+		Random rand = new Random();
+		return rand.nextInt(9999);
 	}
 }
