@@ -15,10 +15,17 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.AddressPageObject;
+import pageObjects.CustomerInfoPageObject;
+import pageObjects.MyProductReviewPageObject;
+import pageObjects.RewardPointsPageObject;
+import pageUIs.BasePageUI;
+
 public class BasePage {
 	public static BasePage getBasePageObject() {
 		return new BasePage();
 	}
+
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
 
@@ -297,29 +304,60 @@ public class BasePage {
 			return false;
 		}
 	}
-	
-	public void waitForElementVisible(WebDriver driver,String xpathLocator) {
+
+	public void waitForElementVisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByxpath(xpathLocator)));
 	}
-	public void waitForAllElementVisible(WebDriver driver,String xpathLocator) {
+
+	public void waitForAllElementVisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(getByxpath(xpathLocator)));
 	}
-	public void waitForElementInVisible(WebDriver driver,String xpathLocator) {
+
+	public void waitForElementInVisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByxpath(xpathLocator)));
 	}
-	public void waitForAllElementInVisible(WebDriver driver,String xpathLocator) {
+
+	public void waitForAllElementInVisible(WebDriver driver, String xpathLocator) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, xpathLocator)));
 	}
-	
-	public void waitForElementClickable(WebDriver driver,String xpathLocator) {
+
+	public void waitForElementClickable(WebDriver driver, String xpathLocator) {
+
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByxpath(xpathLocator)));
 	}
-	
+
+	public AddressPageObject openAddressPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.ADDRESS_LINK);
+		clickToElement(driver, BasePageUI.ADDRESS_LINK);
+		return new AddressPageObject(driver);
+
+	}
+
+	public CustomerInfoPageObject openCustomerInfoPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.CUSTOMER_INFO_LINK);
+		clickToElement(driver, BasePageUI.CUSTOMER_INFO_LINK);
+		return new CustomerInfoPageObject(driver);
+
+	}
+
+	public RewardPointsPageObject openRewardPointsPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.REWARD_POINTS_LINK);
+		clickToElement(driver, BasePageUI.REWARD_POINTS_LINK);
+		return new RewardPointsPageObject(driver);
+
+	}
+
+	public MyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
+		waitForElementVisible(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
+		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
+		return new MyProductReviewPageObject(driver);
+
+	}
 
 	public void sleepInSecond(long time) {
 		try {

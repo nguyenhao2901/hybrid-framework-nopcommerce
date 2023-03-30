@@ -3,7 +3,7 @@
 	<test name="Run on Firefox">
 	<parameter name="browserName" value="firefox" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_05_Login_Apply_Generator_Manager" />
+			<class name="com.nopcommerce.user.Level_05_Switch_Page" />
 		</classes>
 	</test>
 	
