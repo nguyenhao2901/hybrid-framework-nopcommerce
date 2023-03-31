@@ -15,11 +15,15 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import pageObjects.AddressPageObject;
-import pageObjects.CustomerInfoPageObject;
-import pageObjects.MyProductReviewPageObject;
-import pageObjects.RewardPointsPageObject;
-import pageUIs.BasePageUI;
+import pageObjects.nopcommerce.admin.AdminLoginPageObject;
+import pageObjects.nopcommerce.user.UserAddressPageObject;
+import pageObjects.nopcommerce.user.UserCustomerInfoPageObject;
+import pageObjects.nopcommerce.user.UserHomePageObject;
+import pageObjects.nopcommerce.user.UserLoginPageObject;
+import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
+import pageObjects.nopcommerce.user.UserRewardPointsPageObject;
+import pageUIs.nopcommerce.user.BasePageUI;
+import pageUIs.nopcommerce.user.HomePageUI;
 
 public class BasePage {
 	public static BasePage getBasePageObject() {
@@ -331,35 +335,55 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByxpath(xpathLocator)));
 	}
 
-	public AddressPageObject openAddressPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.ADDRESS_LINK);
+	public UserAddressPageObject openAddressPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.ADDRESS_LINK);
 		clickToElement(driver, BasePageUI.ADDRESS_LINK);
-		return new AddressPageObject(driver);
+		return new UserAddressPageObject(driver);
 
 	}
 
-	public CustomerInfoPageObject openCustomerInfoPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.CUSTOMER_INFO_LINK);
+	public UserCustomerInfoPageObject openCustomerInfoPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.CUSTOMER_INFO_LINK);
 		clickToElement(driver, BasePageUI.CUSTOMER_INFO_LINK);
-		return new CustomerInfoPageObject(driver);
+		return new UserCustomerInfoPageObject(driver);
 
 	}
 
-	public RewardPointsPageObject openRewardPointsPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.REWARD_POINTS_LINK);
+	public UserRewardPointsPageObject openRewardPointsPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.REWARD_POINTS_LINK);
 		clickToElement(driver, BasePageUI.REWARD_POINTS_LINK);
-		return new RewardPointsPageObject(driver);
+		return new UserRewardPointsPageObject(driver);
 
 	}
 
-	public MyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
-		waitForElementVisible(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
+	public UserMyProductReviewPageObject openMyProductReviewPage(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
 		clickToElement(driver, BasePageUI.MY_PRODUCT_REVIEW_LINK);
-		return new MyProductReviewPageObject(driver);
+		return new UserMyProductReviewPageObject(driver);
 
 	}
 
-	public void sleepInSecond(long time) {
+	
+	public UserLoginPageObject clickToLoginLink(WebDriver driver) {
+		waitForElementClickable(driver, HomePageUI.LOGIN_LINK);
+		clickToElement(driver, HomePageUI.LOGIN_LINK);
+		return new UserLoginPageObject(driver);
+	}
+
+	public UserHomePageObject clickToLogoutLinkAtUser(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_USER);
+		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_USER);
+		return new UserHomePageObject(driver);
+	}
+	public AdminLoginPageObject clickToLogoutLinkAtAdmin(WebDriver driver) {
+		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
+		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
+		return new AdminLoginPageObject(driver);
+		
+	}
+	
+	
+ 	public void sleepInSecond(long time) {
 		try {
 			Thread.sleep(time * 1000);
 		} catch (Exception e) {

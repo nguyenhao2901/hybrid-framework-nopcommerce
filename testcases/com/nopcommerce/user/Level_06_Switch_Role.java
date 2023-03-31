@@ -12,6 +12,8 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.GlobalConstants;
 import commons.PageGeneratorManager;
+import pageObjects.nopcommerce.admin.AdminDashboardPageObject;
+import pageObjects.nopcommerce.admin.AdminLoginPageObject;
 import pageObjects.nopcommerce.user.UserAddressPageObject;
 import pageObjects.nopcommerce.user.UserCustomerInfoPageObject;
 import pageObjects.nopcommerce.user.UserHomePageObject;
@@ -20,7 +22,7 @@ import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopcommerce.user.UserRegisterPageObject;
 import pageObjects.nopcommerce.user.UserRewardPointsPageObject;
 
-public class Level_05_Switch_Page extends BaseTest {
+public class Level_06_Switch_Role extends BaseTest {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	UserHomePageObject homePage;
@@ -30,7 +32,9 @@ public class Level_05_Switch_Page extends BaseTest {
 	UserRewardPointsPageObject rewardPointPage;
 	UserCustomerInfoPageObject customerInfoPage;
 	UserMyProductReviewPageObject myProductReview;
-	private String firstname, lastname, emailAddress, password;
+	AdminLoginPageObject adminLoginPage;
+	AdminDashboardPageObject adminDashboardPage;
+	private String firstname, lastname, emailAddress, password, adminEmailAddress, adminPassword;
 
 	@Parameters("browserName")
 	@BeforeClass
@@ -40,12 +44,9 @@ public class Level_05_Switch_Page extends BaseTest {
 		lastname = "Hao";
 		password = "123456";
 		emailAddress = "bubu" + generateRandNumber() + "@gmail.com";
+		adminEmailAddress = "admin@yourstore.com";
+		adminPassword = "admin";
 		driver.get(GlobalConstants.USER_URL);
-
-	}
-
-	@Test
-	public void TC_01_Register() {
 		homePage = PageGeneratorManager.getHomePage(driver);
 
 		registerPage = homePage.clickToRegisterLink();
@@ -56,28 +57,20 @@ public class Level_05_Switch_Page extends BaseTest {
 		registerPage.inputToConfirmPasswordTextbox(password);
 		registerPage.clickToRegisterButton();
 		Assert.assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
+
 	}
 
 	@Test
-	public void TC_02_Login() {
-		loginPage = registerPage.clickToLoginLink(driver);
-		loginPage.inputToEmailTextbox(emailAddress);
-		loginPage.inputToPasswordTextbox(password);
-		loginPage.clickToLoginButton();
-		homePage = PageGeneratorManager.getHomePage(driver);
+	public void TC_01_Login_At_User() {
+		loginPage = homePage.clickToLoginLink(driver);
+		homePage = loginPage.loginAsUser(emailAddress, password);
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
-	}
-
-	@Test
-	public void TC_03_Custom_Info_Switch_Page() {
 		customerInfoPage = homePage.clickToMyAccountLink();
-		addressPage = customerInfoPage.openAddressPage(driver);
-		myProductReview = addressPage.openMyProductReviewPage(driver);
-		rewardPointPage = myProductReview.openRewardPointsPage(driver);
-		customerInfoPage =rewardPointPage.openCustomerInfoPage(driver);
-		myProductReview =  customerInfoPage.openMyProductReviewPage(driver);
-		
-
+		homePage = customerInfoPage.clickToLogoutLinkAtUser(driver);
+		homePage.openPageUrl(driver, GlobalConstants.ADMIN_URL);
+		adminLoginPage = PageGeneratorManager.getAdminLoginPage(driver);
+		adminDashboardPage = adminLoginPage.loginAsAdmin(adminEmailAddress, adminPassword);
+		Assert.assertTrue(adminDashboardPage.isAdminDashboardHeaderDisplayed());
 	}
 
 	@AfterClass

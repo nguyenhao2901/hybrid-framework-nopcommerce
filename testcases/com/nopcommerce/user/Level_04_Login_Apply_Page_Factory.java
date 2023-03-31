@@ -13,9 +13,9 @@ import org.testng.annotations.Test;
 import pageObjectFactory.HomePageObjectFactory;
 import pageObjectFactory.LoginPageObjectFactory;
 import pageObjectFactory.RegisterPageObjectFactory;
-import pageObjects.HomePageObject;
-import pageObjects.LoginPageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.nopcommerce.user.UserHomePageObject;
+import pageObjects.nopcommerce.user.UserLoginPageObject;
+import pageObjects.nopcommerce.user.UserRegisterPageObject;
 
 public class Level_04_Login_Apply_Page_Factory {
 	WebDriver driver;

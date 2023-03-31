@@ -10,14 +10,14 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import commons.BaseTest;
-import pageObjects.HomePageObject;
-import pageObjects.RegisterPageObject;
+import pageObjects.nopcommerce.user.UserHomePageObject;
+import pageObjects.nopcommerce.user.UserRegisterPageObject;
 
 public class Level_03_Register_Apply_Multiple_Browser extends BaseTest {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
-	HomePageObject homePage;
-	RegisterPageObject registerPage;
+	UserHomePageObject homePage;
+	UserRegisterPageObject registerPage;
 	private String firstname, lastname, emailAddress, password;
 
 	@Parameters("browserName")
@@ -25,8 +25,8 @@ public class Level_03_Register_Apply_Multiple_Browser extends BaseTest {
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 
-		homePage = new HomePageObject(driver);
-		registerPage = new RegisterPageObject(driver);
+		homePage = new UserHomePageObject(driver);
+		registerPage = new UserRegisterPageObject(driver);
 
 		driver.get("https://demo.nopcommerce.com/");
 		firstname = "Nguyen";
