@@ -2,6 +2,8 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjectTechpandaAndJquery.jqueryDynamicDataGridPageObject;
+import pageObjectTechpandaAndJquery.jqueryPageObject;
 import pageObjects.nopcommerce.admin.AdminDashboardPageObject;
 import pageObjects.nopcommerce.admin.AdminLoginPageObject;
 import pageObjects.nopcommerce.user.UserAddressPageObject;
@@ -57,4 +59,18 @@ public class PageGeneratorManager {
 		return new UserMyProductReviewPageObject(driver);
 		
 	}
+	public static pageObjectTechpandaAndJquery.AdminLoginPageObject getAdminLoginPageTechPanda(WebDriver driver) {
+		return new pageObjectTechpandaAndJquery.AdminLoginPageObject(driver);
+		
+	}
+	public static jqueryPageObject getJqueryPage(WebDriver driver) {
+		return new jqueryPageObject(driver);
+		
+	}
+	public static jqueryDynamicDataGridPageObject getJqueryDynamicDataGridPage(WebDriver driver) {
+		return new jqueryDynamicDataGridPageObject(driver);
+		
+	}
+
+	
 }

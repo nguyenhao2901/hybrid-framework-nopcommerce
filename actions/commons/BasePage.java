@@ -6,6 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -180,7 +181,11 @@ public class BasePage {
 
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem) {
 		Select select = new Select(getWebElement(driver, locatorType));
-		select.selectByValue(locatorType);
+		select.selectByVisibleText(textItem);
+	}
+	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... values) {
+		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, values)));
+		select.selectByVisibleText(textItem);
 	}
 
 	public String getselectedItemDefaultDropdown(WebDriver driver, String locatorType) {
@@ -282,6 +287,11 @@ public class BasePage {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locatorType)).perform();
 
+	}
+
+	public void pressEnter(WebDriver driver) {
+		Actions action = new Actions(driver);
+		action.sendKeys(Keys.ENTER).perform();
 	}
 
 	public void scrollToBottomPage(WebDriver driver) {
@@ -486,7 +496,7 @@ public class BasePage {
 
 	}
 
-	public void sleepInSecond(long time) {
+	public static void sleepInSecond(long time) {
 		try {
 			Thread.sleep(time * 1000);
 		} catch (Exception e) {

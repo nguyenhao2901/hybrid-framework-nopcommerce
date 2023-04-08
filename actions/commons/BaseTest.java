@@ -57,6 +57,48 @@ public class BaseTest {
 		return driver;
 
 	}
+	protected WebDriver getBrowserDriver(String browserName, String url) {
+		switch (browserName) {
+		case "firefox":
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			break;
+			
+		case "chrome":
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			break;
+		case "edge":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+		case "opera":
+			WebDriverManager.operadriver().setup();
+			driver = new OperaDriver();
+			break;
+		case "coccoc": {
+			WebDriverManager.chromedriver().driverVersion("").setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setBinary("C:\\Program Files (x86)\\Microsoft\\coccoc\\Application\\coccoc.exe");
+			driver = new ChromeDriver(options);
+			break;
+		}
+		case "brave":
+			WebDriverManager.chromedriver().driverVersion("").setup();
+			ChromeOptions options = new ChromeOptions();
+			options.setBinary("C:\\Program Files (x86)\\Microsoft\\Brave\\Application\\brave.exe");
+			driver = new ChromeDriver(options);
+			break;
+			
+		default:
+			throw new RuntimeException("Browser Name is invalid");
+		}
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(url);
+		return driver;
+		
+	}
 
 	protected int generatorFakeNumber() {
 		Random rand = new Random();
