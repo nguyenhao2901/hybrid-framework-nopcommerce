@@ -2,6 +2,7 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
+import pageObjectTechpandaAndJquery.UploadFileHomePageObject;
 import pageObjectTechpandaAndJquery.jqueryDynamicDataGridPageObject;
 import pageObjectTechpandaAndJquery.jqueryPageObject;
 import pageObjects.nopcommerce.admin.AdminDashboardPageObject;
@@ -69,6 +70,10 @@ public class PageGeneratorManager {
 	}
 	public static jqueryDynamicDataGridPageObject getJqueryDynamicDataGridPage(WebDriver driver) {
 		return new jqueryDynamicDataGridPageObject(driver);
+		
+	}
+	public static UploadFileHomePageObject getUploadFileHomePage(WebDriver driver) {
+		return new UploadFileHomePageObject(driver);
 		
 	}
 

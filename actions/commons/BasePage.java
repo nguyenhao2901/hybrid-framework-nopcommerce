@@ -151,11 +151,11 @@ public class BasePage {
 		return locatorType;
 	}
 
-	private WebElement getWebElement(WebDriver driver, String locatorType) {
+	public WebElement getWebElement(WebDriver driver, String locatorType) {
 		return driver.findElement(getByLocator(locatorType));
 	}
 
-	private List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorType) {
 		return driver.findElements(getByLocator(locatorType));
 	}
 
@@ -183,6 +183,7 @@ public class BasePage {
 		Select select = new Select(getWebElement(driver, locatorType));
 		select.selectByVisibleText(textItem);
 	}
+
 	public void selectItemInDefaultDropdown(WebDriver driver, String locatorType, String textItem, String... values) {
 		Select select = new Select(getWebElement(driver, getDynamicXpath(locatorType, values)));
 		select.selectByVisibleText(textItem);
@@ -362,11 +363,15 @@ public class BasePage {
 		boolean status = (boolean) jsExecutor.executeScript(
 				"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
 				getWebElement(driver, locatorType));
-		if (status) {
-			return true;
-		} else {
-			return false;
-		}
+		return status;
+	}
+
+	public boolean isImageLoaded(WebDriver driver, String locatorType, String... values) {
+		JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+		boolean status = (boolean) jsExecutor.executeScript(
+				"return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0",
+				getWebElement(driver, getDynamicXpath(locatorType, values)));
+		return status;
 	}
 
 	public void waitForElementVisible(WebDriver driver, String locatorType) {
@@ -417,6 +422,11 @@ public class BasePage {
 
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(locatorType)));
+	}
+	public void waitForElementClickable(WebDriver driver, WebElement element) {
+		
+		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
+		explicitWait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
 	public void waitForElementClickable(WebDriver driver, String locatorType, String... values) {
