@@ -1,0 +1,42 @@
+[INFO ] [2023-04-12 15:21:09,337] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-12 15:21:09,346] Register - Step 02 - Click to register link
+[INFO ] [2023-04-12 15:21:11,672] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-12 15:21:11,758] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-12 15:21:11,837] Register - Step 05 - Enter to email textbox with values: bubu5710@gmail.com
+[INFO ] [2023-04-12 15:21:11,935] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-12 15:21:12,011] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-12 15:21:12,084] Register - Step 08 - Click to register button
+[INFO ] [2023-04-12 15:21:13,294] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-12 15:21:13,351] Login - Step 01 - Click to login link
+[INFO ] [2023-04-12 15:21:14,239] Login - Step 02 - Enter to email textbox with values: bubu5710@gmail.com
+[INFO ] [2023-04-12 15:21:14,343] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-12 15:21:14,425] Login - Step 04 - Click to login button
+[INFO ] [2023-04-12 15:21:15,799] Login - Step 05 - Init home page
+[INFO ] [2023-04-12 15:21:15,799] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-12 15:21:15,879] Switch page - Step 01 - Click to 'My Account' link
+[INFO ] [2023-04-12 15:21:17,075] Switch page - Step 02 - Open Addresses page 
+[INFO ] [2023-04-12 15:21:17,696] Switch page - Step 03 - Open My product reviews page 
+[INFO ] [2023-04-12 15:21:19,843] Switch page - Step 04 - Open Reward points page 
+[INFO ] [2023-04-12 15:21:21,004] Switch page - Step 05 - Open Customer info page 
+[INFO ] [2023-04-12 15:21:22,111] Switch page - Step 06 - Open My product reviews page 
+[INFO ] [2023-04-12 15:21:38,464] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-12 15:21:38,464] Register - Step 02 - Click to register link
+[INFO ] [2023-04-12 15:21:40,204] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-12 15:21:40,328] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-12 15:21:40,458] Register - Step 05 - Enter to email textbox with values: bubu7332@gmail.com
+[INFO ] [2023-04-12 15:21:40,619] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-12 15:21:40,739] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-12 15:21:40,861] Register - Step 08 - Click to register button
+[INFO ] [2023-04-12 15:21:42,070] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-12 15:21:42,135] Login - Step 01 - Click to login link
+[INFO ] [2023-04-12 15:21:42,805] Login - Step 02 - Enter to email textbox with values: bubu7332@gmail.com
+[INFO ] [2023-04-12 15:21:42,928] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-12 15:21:43,053] Login - Step 04 - Click to login button
+[INFO ] [2023-04-12 15:21:44,244] Login - Step 05 - Init home page
+[INFO ] [2023-04-12 15:21:44,244] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-12 15:21:44,307] Switch page - Step 01 - Click to 'My Account' link
+[INFO ] [2023-04-12 15:21:45,225] Switch page - Step 02 - Open Addresses page 
+[INFO ] [2023-04-12 15:21:45,830] Switch page - Step 03 - Open My product reviews page 
+[INFO ] [2023-04-12 15:21:46,447] Switch page - Step 04 - Open Reward points page 
+[INFO ] [2023-04-12 15:21:47,048] Switch page - Step 05 - Open Customer info page 
+[INFO ] [2023-04-12 15:21:47,688] Switch page - Step 06 - Open My product reviews page 
