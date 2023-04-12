@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="NopCommerce">
+<suite name="Facebook">
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
 	</listeners>
 	<test name="Run on Firefox">
 		<parameter name="browserName" value="firefox" />
 		<classes>
-			<class name="com.nopcommerce.user.Level_10_Assert_Verify" />
+			<class name="com.facebook.user.Element_Undisplayed" />
 		</classes>
 	</test>
 
 
 </suite>
+

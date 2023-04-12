@@ -2,6 +2,7 @@ package commons;
 
 import java.util.List;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -23,6 +24,7 @@ import pageObjects.nopcommerce.user.UserHomePageObject;
 import pageObjects.nopcommerce.user.UserLoginPageObject;
 import pageObjects.nopcommerce.user.UserMyProductReviewPageObject;
 import pageObjects.nopcommerce.user.UserRewardPointsPageObject;
+import pageUIs.facebook.LoginPageUI;
 import pageUIs.nopcommerce.user.BasePageUI;
 import pageUIs.nopcommerce.user.HomePageUI;
 
@@ -265,7 +267,28 @@ public class BasePage {
 	}
 
 	public boolean isElementDisplayed(WebDriver driver, String locatorType, String... values) {
+
 		return getWebElement(driver, getDynamicXpath(locatorType, values)).isDisplayed();
+	}
+	
+	public boolean isElementUndisplayed(WebDriver driver, String locatorType) {
+		overrideImplicitTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
+		List<WebElement> elements = getListWebElement(driver, locatorType);
+		overrideImplicitTimeout(driver, GlobalConstants.LONG_TIMEOUT);
+		
+		boolean status;
+		if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			status = true;
+		} else if (elements.size() <= 0) {
+			status = true;
+		} else {
+			status = false;
+		}
+		return status;
+	}
+
+	public void overrideImplicitTimeout(WebDriver driver, long timeout) {
+		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 	}
 
 	public boolean isElementEnable(WebDriver driver, String locatorType) {
@@ -423,8 +446,9 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByLocator(locatorType)));
 	}
+
 	public void waitForElementClickable(WebDriver driver, WebElement element) {
-		
+
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(element));
 	}
