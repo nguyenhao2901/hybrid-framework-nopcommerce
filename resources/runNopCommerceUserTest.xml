@@ -3,14 +3,14 @@
 	<listeners>
 		<listener class-name="commons.MethodListener"></listener>
 		<listener class-name="reportConfig.ReportNGListener" />
-		<listener class-name="reportConfig.ExtentReportListenerV2" />
+		<listener class-name="reportConfig.ExtentReportListenerV5" />
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
 	</listeners>
 	<test name="Run on Firefox">
 		<parameter name="browserName" value="firefox" />
 		<classes> 
-			<class name="com.nopcommerce.user.Level_13_ExtentV2_Screenshot" />
+			<class name="com.nopcommerce.user.Level_14_ExtentV5_Screenshot" />
 		</classes>
 	</test>
 
