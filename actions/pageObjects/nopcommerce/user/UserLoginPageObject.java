@@ -44,6 +44,10 @@ public class UserLoginPageObject extends BasePage {
 		clickToLoginButton();
 		return new UserHomePageObject(driver);
 	}
+	public void clickCloseSuccessLoginNotify() {
+		waitForElementClickable(driver, LoginPageUI.ICON_CLOSE_SUCCESS_LOGIN_NOTIFY);
+		clickToElement(driver, LoginPageUI.ICON_CLOSE_SUCCESS_LOGIN_NOTIFY);
+	}
 
 	
 	

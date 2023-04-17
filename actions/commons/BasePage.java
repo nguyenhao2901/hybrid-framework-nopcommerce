@@ -6,6 +6,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -36,6 +37,17 @@ public class BasePage {
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
 
+	}
+
+	protected Set<Cookie> getCookie(WebDriver driver) {
+		return driver.manage().getCookies();
+	}
+
+	public void setCookie(WebDriver driver, Set<Cookie> cookies) {
+		for (Cookie cookie : cookies) {
+			driver.manage().addCookie(cookie);
+		}
+		sleepInSecond(3);
 	}
 
 	public String getPageTitle(WebDriver driver) {
@@ -270,12 +282,12 @@ public class BasePage {
 
 		return getWebElement(driver, getDynamicXpath(locatorType, values)).isDisplayed();
 	}
-	
+
 	public boolean isElementUndisplayed(WebDriver driver, String locatorType) {
 		overrideImplicitTimeout(driver, GlobalConstants.SHORT_TIMEOUT);
 		List<WebElement> elements = getListWebElement(driver, locatorType);
 		overrideImplicitTimeout(driver, GlobalConstants.LONG_TIMEOUT);
-		
+
 		boolean status;
 		if (elements.size() > 0 && !elements.get(0).isDisplayed()) {
 			status = true;
