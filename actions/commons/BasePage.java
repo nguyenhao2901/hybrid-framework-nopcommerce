@@ -235,6 +235,9 @@ public class BasePage {
 	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName) {
 		return getWebElement(driver, locatorType).getAttribute(attributeName);
 	}
+	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName, String... values) {
+		return getWebElement(driver, getDynamicXpath(locatorType, values)).getAttribute(attributeName);
+	}
 
 	public String getTextElement(WebDriver driver, String locatorType) {
 		return getWebElement(driver, locatorType).getText();
@@ -539,6 +542,24 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		clickToElement(driver, BasePageUI.LOGOUT_LINK_AT_ADMIN);
 		return new AdminLoginPageObject(driver);
+
+	}
+
+	public void enterToTextboxByID(WebDriver driver, String valueToEnter, String textboxID) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, valueToEnter, textboxID);
+
+	}
+
+	public String getTextboxValueByID(WebDriver driver, String textboxID) {
+		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
+		
+	}
+
+	public void clickToButtonByText(WebDriver driver, String textOfButton) {
+		waitForElementClickable(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, textOfButton);
+		clickToElement(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, textOfButton);
 
 	}
 

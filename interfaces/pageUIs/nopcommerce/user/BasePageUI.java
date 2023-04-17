@@ -8,4 +8,6 @@ public class BasePageUI {
 	public static final String LOGOUT_LINK_AT_USER = "class=ico-logout";
 	public static final String LOGOUT_LINK_AT_ADMIN = "xpath=//a[text()='Logout']";
 	public static final String DYNAMIC_LINK_AT_MYACCOUNT = "xpath=//div[contains(@class,'account-navigation')]//a[text()='%s']";
+	public static final String DYNAMIC_TEXTBOX_BY_ID = "xpath=//input[@id='%s']";
+	public static final String DYNAMIC_BUTTON_BY_TEXT = "xpath=//button[text()='%s']";
 }
