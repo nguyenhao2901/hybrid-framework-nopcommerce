@@ -1,11 +1,13 @@
 package commons;
 
 import java.io.IOException;
+import java.text.DateFormatSymbols;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.joda.time.DateTime;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -20,10 +22,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BaseTest {
 	private WebDriver driver;
 	protected final Log log;
+
 	protected BaseTest() {
 		log = LogFactory.getLog(getClass());
 	}
-	
+
 	String projectPath = System.getProperty("user.dir");
 
 	protected WebDriver getBrowserDriver(String browserName) {
@@ -67,13 +70,14 @@ public class BaseTest {
 		return driver;
 
 	}
+
 	protected WebDriver getBrowserDriver(String browserName, String url) {
 		switch (browserName) {
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			break;
-			
+
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
@@ -99,7 +103,7 @@ public class BaseTest {
 			options.setBinary("C:\\Program Files (x86)\\Microsoft\\Brave\\Application\\brave.exe");
 			driver = new ChromeDriver(options);
 			break;
-			
+
 		default:
 			throw new RuntimeException("Browser Name is invalid");
 		}
@@ -107,13 +111,8 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		driver.get(url);
 		return driver;
-		
-	}
 
-	
-	
-	
-	
+	}
 
 	protected int generatorFakeNumber() {
 		Random rand = new Random();
@@ -136,7 +135,6 @@ public class BaseTest {
 		return pass;
 	}
 
-	
 	protected boolean verifyFalse(boolean condition) {
 		boolean pass = true;
 		try {
@@ -151,7 +149,6 @@ public class BaseTest {
 		return pass;
 	}
 
-	
 	protected boolean verifyEquals(Object actual, Object expected) {
 		boolean pass = true;
 		try {
@@ -165,11 +162,11 @@ public class BaseTest {
 		}
 		return pass;
 	}
+
 	public WebDriver getDriver() {
 		return this.driver;
 	}
 
-	
 	protected void closeBrowserAndDriver() {
 		String cmd = null;
 		try {
@@ -218,5 +215,29 @@ public class BaseTest {
 			}
 		}
 	}
-	
+
+	protected String getCurrentDay() {
+		DateTime nowUTC = new DateTime();
+		int day = nowUTC.getDayOfMonth();
+		return String.valueOf(day);
+
+	}
+
+	protected String getCurrentMonth() {
+		DateTime nowUTC = new DateTime();
+		int month = nowUTC.getMonthOfYear();
+		String monthValue = new DateFormatSymbols().getShortMonths()[month-1];
+		return monthValue;
+
+	}
+
+	protected String getCurrentYear() {
+		DateTime now = new DateTime();
+		return String.valueOf(now.getYear());
+
+	}
+
+	protected String getCurrentDate() {
+		return getCurrentMonth() + " " + getCurrentDay() + ", " + getCurrentYear();
+	}
 }

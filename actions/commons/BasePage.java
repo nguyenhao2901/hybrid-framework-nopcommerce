@@ -173,6 +173,10 @@ public class BasePage {
 		return driver.findElements(getByLocator(locatorType));
 	}
 
+	public List<WebElement> getListWebElement(WebDriver driver, String locatorType, String... values) {
+		return driver.findElements(getByLocator(getDynamicXpath(locatorType, values)));
+	}
+
 	public void clickToElement(WebDriver driver, String locatorType) {
 		getWebElement(driver, locatorType).click();
 	}
@@ -235,6 +239,7 @@ public class BasePage {
 	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName) {
 		return getWebElement(driver, locatorType).getAttribute(attributeName);
 	}
+
 	public String getElementAttribute(WebDriver driver, String locatorType, String attributeName, String... values) {
 		return getWebElement(driver, getDynamicXpath(locatorType, values)).getAttribute(attributeName);
 	}
@@ -331,6 +336,11 @@ public class BasePage {
 	public void pressEnter(WebDriver driver) {
 		Actions action = new Actions(driver);
 		action.sendKeys(Keys.ENTER).perform();
+	}
+
+	public void clearDataInElementByPressKey(WebDriver driver, String locatorType) {
+		WebElement element = getWebElement(driver, locatorType);
+		element.sendKeys(Keys.chord(Keys.CONTROL, "a", Keys.DELETE));
 	}
 
 	public void scrollToBottomPage(WebDriver driver) {
@@ -554,7 +564,7 @@ public class BasePage {
 	public String getTextboxValueByID(WebDriver driver, String textboxID) {
 		waitForElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
 		return getElementAttribute(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, "value", textboxID);
-		
+
 	}
 
 	public void clickToButtonByText(WebDriver driver, String textOfButton) {
