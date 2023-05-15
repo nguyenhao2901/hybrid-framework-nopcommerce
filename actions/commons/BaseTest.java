@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.joda.time.DateTime;
+import org.mockito.internal.stubbing.answers.ThrowsException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -112,6 +113,25 @@ public class BaseTest {
 		driver.get(url);
 		return driver;
 
+	}
+
+	protected String getEnviromentUrl(String envName) {
+		String url = "";
+		switch (envName) {
+		case "dev":
+			url = "https://demo.nopcommerce.com/";
+			break;
+		case "test":
+			url = "https://test.nopcommerce.com/";
+			break;
+		case "stagging":
+			url = "https://stagging.nopcommerce.com/";
+			break;
+
+		default:
+			throw new RuntimeException("Please input correct enviroment name");
+		}
+		return url;
 	}
 
 	protected int generatorFakeNumber() {
@@ -226,7 +246,7 @@ public class BaseTest {
 	protected String getCurrentMonth() {
 		DateTime nowUTC = new DateTime();
 		int month = nowUTC.getMonthOfYear();
-		String monthValue = new DateFormatSymbols().getShortMonths()[month-1];
+		String monthValue = new DateFormatSymbols().getShortMonths()[month - 1];
 		return monthValue;
 
 	}

@@ -368,3 +368,601 @@
 [INFO ] [2023-04-13 15:29:53,422] Register - Step 07 - Enter to confirm password textbox with values: 123456
 [INFO ] [2023-04-13 15:29:53,502] Register - Step 08 - Click to register button
 [INFO ] [2023-04-13 15:29:58,789] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 11:14:04,734] OS name = windows 11
+[INFO ] [2023-04-17 11:14:04,743] Driver instance name = firefoxdriver: firefox on windows (834c91ce-306c-4fa4-a9da-52c3e4b6b8b6)
+[INFO ] [2023-04-17 11:28:17,002] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 11:28:17,002] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 11:28:17,525] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 11:28:17,631] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 11:28:17,732] Register - Step 05 - Enter to email textbox with values: bubu5032@gmail.com
+[INFO ] [2023-04-17 11:28:17,836] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 11:28:17,925] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 11:28:17,998] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 11:28:18,658] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 11:28:18,715] OS name = windows 11
+[INFO ] [2023-04-17 11:28:18,715] Driver instance name = firefoxdriver: firefox on windows (1149efd8-351e-42bc-addd-1860ba2a9bbc)
+[INFO ] [2023-04-17 11:30:04,819] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 11:30:04,825] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 11:30:05,814] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 11:30:05,924] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 11:30:06,015] Register - Step 05 - Enter to email textbox with values: bubu7479@gmail.com
+[INFO ] [2023-04-17 11:30:06,108] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 11:30:06,194] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 11:30:06,282] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 11:30:07,039] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 11:30:07,109] OS name = windows 11
+[INFO ] [2023-04-17 11:30:07,110] Driver instance name = firefoxdriver: firefox on windows (dba54cf8-eff1-40d0-98e1-2d26e4a18c76)
+[INFO ] [2023-04-17 11:30:38,590] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 11:30:38,590] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 11:30:39,539] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 11:30:39,640] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 11:30:39,723] Register - Step 05 - Enter to email textbox with values: bubu2537@gmail.com
+[INFO ] [2023-04-17 11:30:39,816] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 11:30:39,905] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 11:30:39,984] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 11:30:40,636] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 11:30:40,714] OS name = windows 11
+[INFO ] [2023-04-17 11:30:40,714] Driver instance name = firefoxdriver: firefox on windows (a8dae0ed-00b7-406b-8bdf-9930d2f9065e)
+[INFO ] [2023-04-17 11:31:03,938] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 11:31:03,944] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 11:31:04,418] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 11:31:04,503] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 11:31:04,613] Register - Step 05 - Enter to email textbox with values: bubu2475@gmail.com
+[INFO ] [2023-04-17 11:31:04,720] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 11:31:04,800] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 11:31:04,880] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 11:31:05,526] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 11:31:05,608] OS name = windows 11
+[INFO ] [2023-04-17 11:31:05,608] Driver instance name = firefoxdriver: firefox on windows (11f6b59c-4302-442f-9159-470499a20e8d)
+[INFO ] [2023-04-17 15:35:42,088] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:35:42,093] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:35:43,376] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:36:13,608] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:36:14,561] Login - Step 02 - Enter to email textbox with values: bubu1966@gmail.com
+[INFO ] [2023-04-17 15:38:18,630] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:38:18,634] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:38:19,071] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:38:49,216] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:38:50,289] Login - Step 02 - Enter to email textbox with values: bubu9721@gmail.com
+[INFO ] [2023-04-17 15:42:48,462] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:42:48,465] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:42:49,429] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:43:19,512] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:43:20,466] Login - Step 02 - Enter to email textbox with values: bubu8235@gmail.com
+[INFO ] [2023-04-17 15:47:44,278] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:47:44,283] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:47:45,534] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:47:45,628] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 15:47:45,723] Register - Step 05 - Enter to email textbox with values: bubu4452@gmail.com
+[INFO ] [2023-04-17 15:47:45,817] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 15:47:45,905] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 15:47:45,982] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 15:47:46,782] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 15:47:46,846] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:47:47,239] Login - Step 02 - Enter to email textbox with values: bubu4452@gmail.com
+[INFO ] [2023-04-17 15:47:47,333] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 15:47:47,412] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 15:47:48,168] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 15:47:48,168] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 15:47:48,247] Switch page - Step 01 - Click to 'My Account' link
+[INFO ] [2023-04-17 15:47:48,667] Switch page - Step 02 - Open Addresses page 
+[INFO ] [2023-04-17 15:47:49,105] Switch page - Step 03 - Open My product reviews page 
+[INFO ] [2023-04-17 15:47:49,543] Switch page - Step 04 - Open Reward points page 
+[INFO ] [2023-04-17 15:47:49,980] Switch page - Step 05 - Open Customer info page 
+[INFO ] [2023-04-17 15:47:51,282] Switch page - Step 06 - Open My product reviews page 
+[INFO ] [2023-04-17 15:52:20,472] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:52:20,477] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:52:21,749] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:52:52,041] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:52:53,414] Login - Step 02 - Enter to email textbox with values: bubu1101@gmail.com
+[INFO ] [2023-04-17 15:55:19,017] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:55:19,020] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:55:19,452] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:55:19,495] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:55:19,859] Login - Step 02 - Enter to email textbox with values: bubu9584@gmail.com
+[INFO ] [2023-04-17 15:57:09,401] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 15:57:09,404] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 15:57:10,647] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 15:57:40,780] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 15:57:41,688] Login - Step 02 - Enter to email textbox with values: bubu5184@gmail.com
+[INFO ] [2023-04-17 16:00:01,334] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:00:01,338] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:00:02,306] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:00:32,515] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:00:33,761] Login - Step 02 - Enter to email textbox with values: bubu9247@gmail.com
+[INFO ] [2023-04-17 16:04:21,773] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:04:21,776] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:04:22,276] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:04:30,971] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:06:11,860] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:06:11,864] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:06:12,875] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:06:43,401] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:06:44,457] Login - Step 02 - Enter to email textbox with values: bubu7780@gmail.com
+[INFO ] [2023-04-17 16:08:20,667] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:08:20,671] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:08:21,251] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:08:51,362] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:08:52,346] Login - Step 02 - Enter to email textbox with values: bubu9145@gmail.com
+[INFO ] [2023-04-17 16:13:05,046] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:13:05,053] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:13:06,057] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:13:06,187] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:13:06,290] Register - Step 05 - Enter to email textbox with values: bubu1832@gmail.com
+[INFO ] [2023-04-17 16:13:06,379] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:13:06,457] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:13:06,537] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:13:07,220] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:13:07,295] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:13:07,683] Login - Step 02 - Enter to email textbox with values: bubu1832@gmail.com
+[INFO ] [2023-04-17 16:13:07,780] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:13:07,867] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 16:13:08,491] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 16:13:08,491] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 16:22:12,228] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:22:12,232] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:22:13,170] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:22:13,262] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:22:13,340] Register - Step 05 - Enter to email textbox with values: bubu1417@gmail.com
+[INFO ] [2023-04-17 16:22:13,419] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:22:13,486] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:22:13,551] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:22:14,242] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:22:14,307] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:22:14,671] Login - Step 02 - Enter to email textbox with values: bubu1417@gmail.com
+[INFO ] [2023-04-17 16:22:14,766] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:22:14,874] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 16:22:15,525] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 16:22:15,525] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 16:23:44,442] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:23:44,447] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:23:45,363] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:23:45,457] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:23:45,555] Register - Step 05 - Enter to email textbox with values: bubu3757@gmail.com
+[INFO ] [2023-04-17 16:23:45,648] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:23:45,734] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:23:45,810] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:23:46,441] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:23:46,511] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:30:22,545] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:30:22,550] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:30:23,484] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:30:23,579] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:30:23,672] Register - Step 05 - Enter to email textbox with values: bubu87@gmail.com
+[INFO ] [2023-04-17 16:30:23,764] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:30:23,854] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:30:23,927] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:30:24,637] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:30:24,693] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:30:25,098] Login - Step 02 - Enter to email textbox with values: bubu87@gmail.com
+[INFO ] [2023-04-17 16:30:25,215] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:30:25,297] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 16:30:25,929] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 16:30:25,929] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 16:30:42,149] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:30:42,154] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:30:42,673] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:30:42,793] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:30:42,879] Register - Step 05 - Enter to email textbox with values: bubu5829@gmail.com
+[INFO ] [2023-04-17 16:30:42,976] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:30:43,061] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:30:43,140] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:30:43,803] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:30:43,858] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:30:44,221] Login - Step 02 - Enter to email textbox with values: bubu5829@gmail.com
+[INFO ] [2023-04-17 16:30:44,318] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:30:44,428] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 16:30:45,080] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 16:30:45,080] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 16:31:08,743] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:31:08,747] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:31:09,748] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:31:09,841] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:31:09,938] Register - Step 05 - Enter to email textbox with values: bubu9403@gmail.com
+[INFO ] [2023-04-17 16:31:10,030] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:31:10,117] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:31:10,194] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:31:10,885] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:31:10,922] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:31:11,326] Login - Step 02 - Enter to email textbox with values: bubu9403@gmail.com
+[INFO ] [2023-04-17 16:31:11,420] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:31:11,513] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 16:31:12,198] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 16:31:12,198] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 16:33:08,173] Register - Step 01 - Navigate to home page
+[INFO ] [2023-04-17 16:33:08,178] Register - Step 02 - Click to register link
+[INFO ] [2023-04-17 16:33:09,131] Register - Step 03 - Enter to firstname textbox with values: Nguyen
+[INFO ] [2023-04-17 16:33:09,218] Register - Step 04 - Enter to lastname textbox with values: Hao
+[INFO ] [2023-04-17 16:33:09,315] Register - Step 05 - Enter to email textbox with values: bubu720@gmail.com
+[INFO ] [2023-04-17 16:33:09,407] Register - Step 06 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:33:09,498] Register - Step 07 - Enter to confirm password textbox with values: 123456
+[INFO ] [2023-04-17 16:33:09,588] Register - Step 08 - Click to register button
+[INFO ] [2023-04-17 16:33:10,243] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-04-17 16:33:10,302] Login - Step 01 - Click to login link
+[INFO ] [2023-04-17 16:33:10,691] Login - Step 02 - Enter to email textbox with values: bubu720@gmail.com
+[INFO ] [2023-04-17 16:33:10,779] Login - Step 03 - Enter to password textbox with values: 123456
+[INFO ] [2023-04-17 16:33:10,880] Login - Step 04 - Click to login button
+[INFO ] [2023-04-17 16:33:11,505] Login - Step 05 - Init home page
+[INFO ] [2023-04-17 16:33:11,505] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-04-17 16:33:12,067] OS name = windows 11
+[INFO ] [2023-04-17 16:33:12,067] Driver instance name = firefoxdriver: firefox on windows (9cd8489e-f29c-49ad-bdfe-0ce47b2a930a)
+[INFO ] [2023-05-09 16:22:36,421] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 16:22:40,764] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:22:42,368] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 16:22:42,491] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:22:43,271] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 16:22:44,839] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 5026
+[INFO ] [2023-05-09 16:22:45,436] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 5026
+[INFO ] [2023-05-09 16:22:46,501] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 16:22:47,208] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 16:22:47,330] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 16:22:48,100] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 16:22:48,934] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 5026
+[INFO ] [2023-05-09 16:22:49,060] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:22:50,271] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:23:20,461] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 16:23:22,241] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 5026
+[INFO ] [2023-05-09 16:23:22,345] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 16:23:28,308] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:23:28,585] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 16:23:29,827] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:23:30,087] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:23:30,978] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:23:31,781] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:24:01,852] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:24:02,720] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:24:04,124] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:24:04,926] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 5026
+[INFO ] [2023-05-09 16:24:05,042] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:24:06,376] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 16:24:36,480] OS name = windows 11
+[INFO ] [2023-05-09 16:24:36,480] Driver instance name = firefoxdriver: firefox on windows (edfff5a3-8579-4b70-aa9e-4623a19f3112)
+[INFO ] [2023-05-09 16:25:55,988] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 16:25:59,725] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:26:01,317] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 16:26:01,462] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:26:02,270] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 16:26:03,759] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 8505
+[INFO ] [2023-05-09 16:26:04,289] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 8505
+[INFO ] [2023-05-09 16:26:05,201] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 16:26:05,915] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 16:26:06,011] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 16:26:06,750] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 16:26:08,461] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 8505
+[INFO ] [2023-05-09 16:26:08,594] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:26:09,826] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:26:40,025] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 16:26:41,851] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 8505
+[INFO ] [2023-05-09 16:26:41,968] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 16:26:47,856] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:26:48,109] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 16:26:48,730] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:26:48,994] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:26:49,885] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:26:51,188] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:26:51,916] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 8505
+[INFO ] [2023-05-09 16:26:52,028] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:26:53,234] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 16:26:54,644] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 8505
+[INFO ] [2023-05-09 16:26:55,214] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 8505
+[INFO ] [2023-05-09 16:26:56,391] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 16:26:56,469] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 16:26:57,121] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 16:26:58,787] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 8505
+[INFO ] [2023-05-09 16:26:58,909] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:27:00,031] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:27:30,208] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 16:27:30,806] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 8505
+[INFO ] [2023-05-09 16:27:30,944] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 16:27:36,636] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:27:36,891] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 16:27:37,531] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:27:37,785] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:27:38,670] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:27:39,966] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:27:40,783] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 8505
+[INFO ] [2023-05-09 16:27:40,906] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:27:42,118] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 16:28:12,590] OS name = windows 11
+[INFO ] [2023-05-09 16:28:12,590] Driver instance name = firefoxdriver: firefox on windows (ba16464f-35e2-4cd8-9765-b4dd0de63e9d)
+[INFO ] [2023-05-09 16:45:41,367] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 16:45:45,748] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:45:47,285] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 16:45:47,431] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:45:48,351] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 16:45:49,841] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 4867
+[INFO ] [2023-05-09 16:45:50,396] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 4867
+[INFO ] [2023-05-09 16:45:51,237] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 16:45:51,969] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 16:45:52,060] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 16:45:52,834] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 16:45:53,540] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 4867
+[INFO ] [2023-05-09 16:45:53,667] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:45:54,855] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:46:25,048] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 16:46:26,828] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 4867
+[INFO ] [2023-05-09 16:46:26,932] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 16:46:32,870] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:46:33,142] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 16:46:33,786] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:46:34,043] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:46:35,006] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:46:36,283] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:46:37,052] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 4867
+[INFO ] [2023-05-09 16:46:37,176] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:46:38,397] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 16:46:39,696] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 4867
+[INFO ] [2023-05-09 16:46:40,199] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 4867
+[INFO ] [2023-05-09 16:46:41,152] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 16:46:41,640] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 16:46:42,310] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 16:46:44,069] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 4867
+[INFO ] [2023-05-09 16:46:44,188] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:46:45,331] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:47:15,513] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 16:47:16,085] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 4867
+[INFO ] [2023-05-09 16:47:16,214] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 16:47:21,890] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:47:22,147] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 16:47:22,760] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:47:23,027] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:47:23,945] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:47:25,205] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:47:25,943] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 4867
+[INFO ] [2023-05-09 16:47:26,064] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:47:27,570] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 16:47:27,695] OS name = windows 11
+[INFO ] [2023-05-09 16:47:27,695] Driver instance name = firefoxdriver: firefox on windows (eb63b098-62d5-42a4-a043-de5a2e5235eb)
+[INFO ] [2023-05-09 16:49:51,938] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 16:49:56,602] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:49:58,210] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 16:49:58,301] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:49:59,114] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 16:50:00,568] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 2821
+[INFO ] [2023-05-09 16:50:01,111] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 2821
+[INFO ] [2023-05-09 16:50:02,093] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 16:50:02,843] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 16:50:02,944] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 16:50:03,688] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 16:50:04,386] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 2821
+[INFO ] [2023-05-09 16:50:04,513] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:50:05,671] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:50:35,857] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 16:50:37,591] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 2821
+[INFO ] [2023-05-09 16:50:37,683] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 16:50:43,620] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:50:43,875] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 16:50:44,484] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:50:44,746] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:50:45,708] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:50:47,975] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:50:49,225] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 2821
+[INFO ] [2023-05-09 16:50:49,339] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:50:52,033] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 16:50:54,142] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 2821
+[INFO ] [2023-05-09 16:50:54,879] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 2821
+[INFO ] [2023-05-09 16:50:56,237] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 16:50:56,987] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 16:50:57,718] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 16:50:59,338] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 2821
+[INFO ] [2023-05-09 16:50:59,466] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:51:00,577] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:51:30,755] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 16:51:31,312] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 2821
+[INFO ] [2023-05-09 16:51:31,454] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 16:51:37,132] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:51:37,373] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 16:51:37,970] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:51:38,219] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:51:39,104] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:51:40,426] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:51:41,193] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 2821
+[INFO ] [2023-05-09 16:51:41,326] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:51:42,432] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 16:51:43,694] Delete_Post - Step 07 - Verify post moved message is display
+[INFO ] [2023-05-09 16:51:43,771] OS name = windows 11
+[INFO ] [2023-05-09 16:51:43,771] Driver instance name = firefoxdriver: firefox on windows (55b361a7-7d6c-48be-8c4a-9b83043247c1)
+[INFO ] [2023-05-09 16:54:10,575] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 16:54:14,657] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:54:16,233] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 16:54:16,348] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:54:17,202] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 16:54:18,732] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 6224
+[INFO ] [2023-05-09 16:54:19,303] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 6224
+[INFO ] [2023-05-09 16:54:20,241] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 16:54:20,964] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 16:54:21,059] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 16:54:21,815] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 16:54:22,521] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 6224
+[INFO ] [2023-05-09 16:54:22,657] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:54:23,806] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:54:53,988] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 16:54:55,723] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 6224
+[INFO ] [2023-05-09 16:54:55,822] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 16:55:01,866] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:55:02,126] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 16:55:02,747] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:55:03,008] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:55:03,895] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:55:05,309] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:55:06,073] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 6224
+[INFO ] [2023-05-09 16:55:06,185] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:55:07,389] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 16:55:08,727] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 6224
+[INFO ] [2023-05-09 16:55:09,249] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 6224
+[INFO ] [2023-05-09 16:55:10,686] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 16:55:10,799] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 16:55:11,467] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 16:55:13,137] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 6224
+[INFO ] [2023-05-09 16:55:13,275] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:55:14,396] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 16:55:44,579] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 16:55:45,154] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 6224
+[INFO ] [2023-05-09 16:55:45,293] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 16:55:50,958] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 16:55:51,215] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 16:55:51,853] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 16:55:52,113] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 16:55:53,003] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 16:55:54,306] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 16:55:55,054] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 6224
+[INFO ] [2023-05-09 16:55:55,184] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 16:55:56,252] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 16:55:57,563] Delete_Post - Step 07 - Verify post moved message is display
+[INFO ] [2023-05-09 16:56:27,978] OS name = windows 11
+[INFO ] [2023-05-09 16:56:27,978] Driver instance name = firefoxdriver: firefox on windows (fbf28bf3-dafc-4c84-8101-39b3c23b78cc)
+[INFO ] [2023-05-09 17:00:34,651] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 17:00:39,339] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:00:41,084] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 17:00:41,179] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:00:42,258] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 17:00:43,853] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 8380
+[INFO ] [2023-05-09 17:00:44,422] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 8380
+[INFO ] [2023-05-09 17:00:45,336] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 17:00:46,050] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 17:00:46,151] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 17:00:46,929] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 17:00:48,659] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 8380
+[INFO ] [2023-05-09 17:00:48,788] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:00:49,877] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 17:01:20,080] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 17:01:21,914] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 8380
+[INFO ] [2023-05-09 17:01:22,040] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 17:01:27,967] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 17:01:28,242] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 17:01:29,344] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 17:01:29,607] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 17:01:30,617] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:01:32,057] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:01:32,806] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 8380
+[INFO ] [2023-05-09 17:01:32,921] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:01:34,114] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 17:01:35,491] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 8380
+[INFO ] [2023-05-09 17:01:35,981] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 8380
+[INFO ] [2023-05-09 17:01:36,915] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 17:01:37,379] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 17:01:38,018] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 17:01:39,697] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 8380
+[INFO ] [2023-05-09 17:01:39,833] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:01:40,973] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 17:02:11,156] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 17:02:11,736] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 8380
+[INFO ] [2023-05-09 17:02:11,873] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 17:02:17,653] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 17:02:17,909] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 17:02:18,508] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 17:02:18,757] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 17:02:19,621] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:02:20,934] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:02:21,665] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 8380
+[INFO ] [2023-05-09 17:02:21,774] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:02:22,877] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 17:02:24,180] Delete_Post - Step 07 - Verify post moved message is display
+[INFO ] [2023-05-09 17:02:54,551] OS name = windows 11
+[INFO ] [2023-05-09 17:02:54,551] Driver instance name = firefoxdriver: firefox on windows (b4c66261-e96b-4ef4-b20a-f28c97b22237)
+[INFO ] [2023-05-09 17:40:27,355] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 17:40:32,641] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:40:34,632] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 17:40:34,763] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:40:35,535] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 17:40:37,054] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 3415
+[INFO ] [2023-05-09 17:40:37,629] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 3415
+[INFO ] [2023-05-09 17:40:38,534] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 17:40:38,928] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 17:40:39,045] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 17:40:39,805] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 17:40:40,499] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 3415
+[INFO ] [2023-05-09 17:40:40,628] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:40:41,786] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 17:41:11,967] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 17:41:13,754] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 3415
+[INFO ] [2023-05-09 17:41:13,864] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 17:41:19,767] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 17:41:20,024] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 17:41:20,623] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 17:41:20,870] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 17:41:21,852] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:41:23,136] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:41:23,895] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 3415
+[INFO ] [2023-05-09 17:41:24,030] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:41:25,276] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 17:41:26,652] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 3415
+[INFO ] [2023-05-09 17:41:27,186] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 3415
+[INFO ] [2023-05-09 17:41:28,789] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 17:41:28,861] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 17:41:29,524] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 17:41:30,200] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 3415
+[INFO ] [2023-05-09 17:41:30,327] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:41:31,425] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 17:42:01,608] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 17:42:02,178] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 3415
+[INFO ] [2023-05-09 17:42:02,311] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 17:42:07,985] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 17:42:08,230] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 17:42:08,834] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 17:42:09,095] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 17:42:09,970] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:42:11,286] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:42:12,088] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 3415
+[INFO ] [2023-05-09 17:42:12,210] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:42:13,276] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 17:42:14,531] Delete_Post - Step 07 - Verify post moved message is display
+[INFO ] [2023-05-09 17:42:14,615] Delete_Post - Step 08 - Open home page at end user site
+[INFO ] [2023-05-09 17:42:15,197] Delete_Post - Step 09 - Enter to search textbox with value: Hao Update Test Post Title 3415
+[INFO ] [2023-05-09 17:42:15,313] Delete_Post - Step 10 - Click 'Search' button
+[INFO ] [2023-05-09 17:42:21,011] Delete_Post - Step 11 - Verify 'Nothing Found' message is display
+[INFO ] [2023-05-09 17:42:21,082] OS name = windows 11
+[INFO ] [2023-05-09 17:42:21,082] Driver instance name = firefoxdriver: firefox on windows (5682a73d-1ff3-45b8-a5b8-370a9b4d13aa)
+[INFO ] [2023-05-09 17:42:47,970] Pre - Condition - Step 01 - Open browser and open admin url
+[INFO ] [2023-05-09 17:42:52,269] Pre - Condition - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:42:53,828] Pre - Condition - Step 03 - Verify login success
+[INFO ] [2023-05-09 17:42:53,933] Create post - Step 01 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:42:54,683] Create post - Step 02 - Click to 'Add new' button
+[INFO ] [2023-05-09 17:42:56,106] Create post - Step 03 - Enter to post title with value: Hao Test Post Title 7912
+[INFO ] [2023-05-09 17:42:56,673] Create post - Step 04 - Enter to post body with value: Hao Test Post Body 7912
+[INFO ] [2023-05-09 17:42:57,593] Create post - Step 05 - Click to 'pre' - 'Publish' button
+[INFO ] [2023-05-09 17:42:58,326] Create post - Step 06 - Click to 'Publish' button
+[INFO ] [2023-05-09 17:42:58,432] Create post - Step 07 - Verify post published message is display
+[INFO ] [2023-05-09 17:42:59,191] Search and view post - Step 01 - Open search post page
+[INFO ] [2023-05-09 17:43:00,946] Search and view post - Step 02 - Enter to search textbox with value: Hao Test Post Title 7912
+[INFO ] [2023-05-09 17:43:01,080] Search and view post - Step 03 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:43:02,185] Search and view post - Step 04 - Verify post infor is display in result table
+[INFO ] [2023-05-09 17:43:32,369] Search and view post - Step 05 - Open home page at end user site
+[INFO ] [2023-05-09 17:43:33,230] Search and view post - Step 06 - Enter to search textbox with value: Hao Test Post Title 7912
+[INFO ] [2023-05-09 17:43:33,385] Search and view post - Step 07 - Click 'Search' button
+[INFO ] [2023-05-09 17:43:39,320] Search and view post - Step 08 - Verify post infor is display at home page
+[INFO ] [2023-05-09 17:43:39,580] Search and view post - Step 09 - Click to post title link
+[INFO ] [2023-05-09 17:43:40,633] Search and view post - Step 10 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 17:43:40,965] Edit_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 17:43:42,609] Edit_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:43:44,691] Edit_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:43:45,653] Edit_Post - Step 04 - Enter to search textbox with value: Hao Test Post Title 7912
+[INFO ] [2023-05-09 17:43:45,849] Edit_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:43:47,035] Edit_Post - Step 06 - Click to post title link and navigate to edit page
+[INFO ] [2023-05-09 17:43:48,399] Edit_Post - Step 07 - Enter to post title with update value: Hao Update Test Post Title 7912
+[INFO ] [2023-05-09 17:43:48,898] Edit_Post - Step 8 - Enter to post body with update value: Hao Update Test Post Body 7912
+[INFO ] [2023-05-09 17:43:49,826] Edit_Post - Step 9 - Click to 'Update' button
+[INFO ] [2023-05-09 17:43:50,272] Edit_Post - Step 10 - Verify 'Post updated.' message is display
+[INFO ] [2023-05-09 17:43:50,961] Edit_Post - Step 11 - Open search post page
+[INFO ] [2023-05-09 17:43:52,642] Edit_Post - Step 12 - Enter to search textbox with value: Hao Update Test Post Title 7912
+[INFO ] [2023-05-09 17:43:52,758] Edit_Post - Step 13 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:43:54,055] Edit_Post - Step 14 - Verify post infor is display in result table
+[INFO ] [2023-05-09 17:44:24,240] Edit_Post - Step 15 - Open home page at end user site
+[INFO ] [2023-05-09 17:44:24,846] Edit_Post - Step 16 - Enter to search textbox with value: Hao Update Test Post Title 7912
+[INFO ] [2023-05-09 17:44:24,976] Edit_Post - Step 17 - Click 'Search' button
+[INFO ] [2023-05-09 17:44:30,757] Edit_Post - Step 18 - Verify post infor is display at home page
+[INFO ] [2023-05-09 17:44:31,019] Edit_Post - Step 19 - Click to post title link
+[INFO ] [2023-05-09 17:44:32,169] Edit_Post - Step 20 - Verify post infor is display at post detail page
+[INFO ] [2023-05-09 17:44:32,429] Delete_Post - Step 01 - Open admin site
+[INFO ] [2023-05-09 17:44:33,546] Delete_Post - Step 02 - Login with account admin: abubu_admin/abubu_admin
+[INFO ] [2023-05-09 17:44:34,882] Delete_Post - Step 03 - Click to 'Posts' menu link
+[INFO ] [2023-05-09 17:44:35,613] Delete_Post - Step 04 - Enter to search textbox with value: Hao Update Test Post Title 7912
+[INFO ] [2023-05-09 17:44:35,730] Delete_Post - Step 05 - Click 'Search Posts' button
+[INFO ] [2023-05-09 17:44:36,812] Delete_Post - Step 06 - Click to 'Trash' link
+[INFO ] [2023-05-09 17:44:38,122] Delete_Post - Step 07 - Verify post moved message is display
+[INFO ] [2023-05-09 17:44:38,191] Delete_Post - Step 08 - Open home page at end user site
+[INFO ] [2023-05-09 17:44:38,776] Delete_Post - Step 09 - Enter to search textbox with value: Hao Update Test Post Title 7912
+[INFO ] [2023-05-09 17:44:38,884] Delete_Post - Step 10 - Click 'Search' button
+[INFO ] [2023-05-09 17:44:44,537] Delete_Post - Step 11 - Verify 'Nothing Found' message is display
+[INFO ] [2023-05-09 17:44:44,608] OS name = windows 11
+[INFO ] [2023-05-09 17:44:44,608] Driver instance name = firefoxdriver: firefox on windows (9e464b88-d58c-4a2a-b497-4ae581799c6e)
