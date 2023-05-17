@@ -1,4 +1,4 @@
-package com.nopcommerce.user;
+package com.nopcommerce.browserstack;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -18,7 +18,7 @@ import pageObjects.nopcommerce.user.UserRegisterPageObject;
 import pageObjects.nopcommerce.user.UserRewardPointsPageObject;
 import utilities.DataHelper;
 
-public class Level_19_Fake_Data extends BaseTest {
+public class Level_22_BrowserStack extends BaseTest {
 	WebDriver driver;
 	String projectPath = System.getProperty("user.dir");
 	UserHomePageObject homePage;
@@ -31,10 +31,10 @@ public class Level_19_Fake_Data extends BaseTest {
 	private String firstname, lastname, emailAddress, password;
 	DataHelper data;
 
-	@Parameters({ "browserName", "url" })
+	@Parameters({ "url", "os", "osVersion", "browserName", "browserVersion" })
 	@BeforeClass
-	public void beforeClass(String browserName, String url) {
-		driver = getBrowserDriver(browserName, url);
+	public void beforeClass(String url, String os, String osVersion, String browserName, String browserVersion) {
+		driver = getBrowserDriverBrowserStack(url, os, osVersion, browserName, browserVersion);
 		data = DataHelper.getDataHelper();
 		firstname = data.getFirstName();
 		lastname = data.getLastName();
@@ -93,8 +93,6 @@ public class Level_19_Fake_Data extends BaseTest {
 		log.info("Login - Step 06 - Verify 'My Account' link is displayed");
 		Assert.assertTrue(homePage.isMyAccountLinkDisplayed());
 	}
-
-	
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {

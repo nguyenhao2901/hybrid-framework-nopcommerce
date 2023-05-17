@@ -1,6 +1,8 @@
 package commons;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.DateFormatSymbols;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -8,13 +10,14 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.joda.time.DateTime;
-import org.mockito.internal.stubbing.answers.ThrowsException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
@@ -107,6 +110,28 @@ public class BaseTest {
 
 		default:
 			throw new RuntimeException("Browser Name is invalid");
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(url);
+		return driver;
+
+	}
+
+	protected WebDriver getBrowserDriverBrowserStack(String url, String os, String osVersion, String browserName,
+			String browserVersion) {
+		DesiredCapabilities capability = new DesiredCapabilities();
+		capability.setCapability("os", os);
+		capability.setCapability("os_version", osVersion);
+		capability.setCapability("browser", browserName);
+		capability.setCapability("browser_version", browserVersion);
+		capability.setCapability("name", "Run on " + os + " | " + browserName);
+		capability.setCapability("browserstack.local", "false");
+		capability.setCapability("browserstack.selenium_version", "3.141.59");
+		try {
+			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSER_STACK_URL), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
 		}
 		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
