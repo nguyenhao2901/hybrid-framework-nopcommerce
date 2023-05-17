@@ -24,4 +24,9 @@ public class GlobalConstants {
 	public static final String BROWSER_STACK_URL = "https://" + BROWSER_STACK_USER_NAME + ":"
 			+ BROWSER_STACK_AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 
+	public static final String SAUCELAB_USER_NAME = "oauth-haont2901-406cd";
+	public static final String SAUCELAB_AUTOMATE_KEY = "a44dc79c-b580-4d8d-be2e-d08c7d970cac";
+	public static final String SAUCELAB_URL = "https://" + SAUCELAB_USER_NAME + ":" + SAUCELAB_AUTOMATE_KEY
+			+ "@ondemand.eu-central-1.saucelabs.com:443/wd/hub";
+
 }

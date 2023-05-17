@@ -1,4 +1,4 @@
-package com.nopcommerce.browserstack;
+package com.nopcommerce.cloud.testing;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

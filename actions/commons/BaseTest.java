@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DateFormatSymbols;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
@@ -130,6 +132,29 @@ public class BaseTest {
 		capability.setCapability("browserstack.selenium_version", "3.141.59");
 		try {
 			driver = new RemoteWebDriver(new URL(GlobalConstants.BROWSER_STACK_URL), capability);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+		driver.manage().timeouts().implicitlyWait(GlobalConstants.LONG_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get(url);
+		return driver;
+
+	}
+
+	protected WebDriver getBrowserDriverSaucelab(String url, String osName, String browserName, String browserVersion) {
+		DesiredCapabilities capability = new DesiredCapabilities();
+		capability.setCapability("platformName", osName);
+		capability.setCapability("browserName", browserName);
+		capability.setCapability("browserVersion", browserVersion);
+
+		Map<String, Object> sauceOptions = new HashMap<>();
+		sauceOptions.put("build", "cloudtesting with saucelab");
+		sauceOptions.put("name", "Nopcommerce User");
+		capability.setCapability("sauce:options", sauceOptions);
+
+		try {
+			driver = new RemoteWebDriver(new URL(GlobalConstants.SAUCELAB_URL), capability);
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}

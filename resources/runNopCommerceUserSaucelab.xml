@@ -10,23 +10,21 @@
 
 	<test name="Run on Chrome">
 		<parameter name="url" value="https://demo.nopcommerce.com/" />
-		<parameter name="os" value="OS X" />
-		<parameter name="osVersion" value="Big Sur" />
+		<parameter name="os" value="Windows 10" />
 		<parameter name="browserName" value="Chrome" />
 		<parameter name="browserVersion" value="latest" />
 		<classes>
-			<class name="com.nopcommerce.cloud.testing.Level_22_BrowserStack" />
+			<class name="com.nopcommerce.cloud.testing.Level_23_Saucelab" />
 		</classes>
 	</test>
 	<test name="Run on Firefox">
 		<parameter name="url" value="https://demo.nopcommerce.com/" />
-		<parameter name="os" value="Windows" />
-		<parameter name="osVersion" value="11" />
+		<parameter name="os" value="macOS 12" />
 		<parameter name="browserName" value="Firefox" />
-		<parameter name="browserVersion" value="112.0" />
+		<parameter name="browserVersion" value="109" />
 
 		<classes>
-			<class name="com.nopcommerce.cloud.testing.Level_22_BrowserStack" />
+			<class name="com.nopcommerce.cloud.testing.Level_23_Saucelab" />
 		</classes>
 	</test>
 

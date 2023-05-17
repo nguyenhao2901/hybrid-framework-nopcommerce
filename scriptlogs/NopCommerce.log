@@ -966,3 +966,71 @@
 [INFO ] [2023-05-09 17:44:44,537] Delete_Post - Step 11 - Verify 'Nothing Found' message is display
 [INFO ] [2023-05-09 17:44:44,608] OS name = windows 11
 [INFO ] [2023-05-09 17:44:44,608] Driver instance name = firefoxdriver: firefox on windows (9e464b88-d58c-4a2a-b497-4ae581799c6e)
+[INFO ] [2023-05-17 09:27:56,443] Register - Step 01 - Navigate to home page
+[INFO ] [2023-05-17 09:27:56,447] Register - Step 02 - Click to register link
+[INFO ] [2023-05-17 09:27:59,243] Register - Step 03 - Enter to firstname textbox with values: Beckie
+[INFO ] [2023-05-17 09:28:00,902] Register - Step 04 - Enter to lastname textbox with values: Zboncak
+[INFO ] [2023-05-17 09:28:02,788] Register - Step 05 - Enter to email textbox with values: nakita.balistreri@gmail.com
+[INFO ] [2023-05-17 09:28:04,646] Register - Step 06 - Enter to password textbox with values: Jw2eG3%DCT
+[INFO ] [2023-05-17 09:28:04,739] Register - Step 01 - Navigate to home page
+[INFO ] [2023-05-17 09:28:04,740] Register - Step 02 - Click to register link
+[INFO ] [2023-05-17 09:28:06,399] Register - Step 07 - Enter to confirm password textbox with values: Jw2eG3%DCT
+[INFO ] [2023-05-17 09:28:08,072] Register - Step 08 - Click to register button
+[INFO ] [2023-05-17 09:28:08,198] Register - Step 03 - Enter to firstname textbox with values: Caroll
+[INFO ] [2023-05-17 09:28:10,173] Register - Step 04 - Enter to lastname textbox with values: Auer
+[INFO ] [2023-05-17 09:28:10,223] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-05-17 09:28:11,313] Login - Step 01 - Click to login link
+[INFO ] [2023-05-17 09:28:12,006] Register - Step 05 - Enter to email textbox with values: allen.weissnat@yahoo.com
+[INFO ] [2023-05-17 09:28:13,133] Login - Step 02 - Enter to email textbox with values: nakita.balistreri@gmail.com
+[INFO ] [2023-05-17 09:28:13,914] Register - Step 06 - Enter to password textbox with values: h#Bck0$e
+[INFO ] [2023-05-17 09:28:14,727] Login - Step 03 - Enter to password textbox with values: Jw2eG3%DCT
+[INFO ] [2023-05-17 09:28:15,740] Register - Step 07 - Enter to confirm password textbox with values: h#Bck0$e
+[INFO ] [2023-05-17 09:28:16,368] Login - Step 04 - Click to login button
+[INFO ] [2023-05-17 09:28:17,552] Register - Step 08 - Click to register button
+[INFO ] [2023-05-17 09:28:18,319] Login - Step 05 - Init home page
+[INFO ] [2023-05-17 09:28:18,320] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-05-17 09:28:19,445] OS name = windows 11
+[INFO ] [2023-05-17 09:28:19,445] Driver instance name = remotewebdriver: chrome on windows (fa804b05eeae480196c5660ad9b0ad5b)
+[INFO ] [2023-05-17 09:28:19,856] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-05-17 09:28:21,050] Login - Step 01 - Click to login link
+[INFO ] [2023-05-17 09:28:23,690] Login - Step 02 - Enter to email textbox with values: allen.weissnat@yahoo.com
+[INFO ] [2023-05-17 09:28:25,462] Login - Step 03 - Enter to password textbox with values: h#Bck0$e
+[INFO ] [2023-05-17 09:28:27,213] Login - Step 04 - Click to login button
+[INFO ] [2023-05-17 09:28:29,478] Login - Step 05 - Init home page
+[INFO ] [2023-05-17 09:28:29,479] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-05-17 09:28:30,777] OS name = windows 11
+[INFO ] [2023-05-17 09:28:30,777] Driver instance name = remotewebdriver: firefox on mac (d7434b154f434bc583350ed111a22749)
+[INFO ] [2023-05-17 09:31:50,035] Register - Step 01 - Navigate to home page
+[INFO ] [2023-05-17 09:31:50,041] Register - Step 02 - Click to register link
+[INFO ] [2023-05-17 09:31:52,700] Register - Step 03 - Enter to firstname textbox with values: Colette
+[INFO ] [2023-05-17 09:31:54,562] Register - Step 04 - Enter to lastname textbox with values: Harber
+[INFO ] [2023-05-17 09:31:56,135] Register - Step 01 - Navigate to home page
+[INFO ] [2023-05-17 09:31:56,136] Register - Step 02 - Click to register link
+[INFO ] [2023-05-17 09:31:56,267] Register - Step 05 - Enter to email textbox with values: daine.rodriguez@gmail.com
+[INFO ] [2023-05-17 09:31:57,901] Register - Step 06 - Enter to password textbox with values: bWI@DL##
+[INFO ] [2023-05-17 09:31:59,159] Register - Step 03 - Enter to firstname textbox with values: Tod
+[INFO ] [2023-05-17 09:31:59,527] Register - Step 07 - Enter to confirm password textbox with values: bWI@DL##
+[INFO ] [2023-05-17 09:32:01,096] Register - Step 04 - Enter to lastname textbox with values: Heller
+[INFO ] [2023-05-17 09:32:01,189] Register - Step 08 - Click to register button
+[INFO ] [2023-05-17 09:32:02,972] Register - Step 05 - Enter to email textbox with values: royal.conroy@gmail.com
+[INFO ] [2023-05-17 09:32:03,196] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-05-17 09:32:04,303] Login - Step 01 - Click to login link
+[INFO ] [2023-05-17 09:32:04,904] Register - Step 06 - Enter to password textbox with values: ^KW&b%&fos&
+[INFO ] [2023-05-17 09:32:06,122] Login - Step 02 - Enter to email textbox with values: daine.rodriguez@gmail.com
+[INFO ] [2023-05-17 09:32:06,790] Register - Step 07 - Enter to confirm password textbox with values: ^KW&b%&fos&
+[INFO ] [2023-05-17 09:32:07,865] Login - Step 03 - Enter to password textbox with values: bWI@DL##
+[INFO ] [2023-05-17 09:32:08,700] Register - Step 08 - Click to register button
+[INFO ] [2023-05-17 09:32:09,550] Login - Step 04 - Click to login button
+[INFO ] [2023-05-17 09:32:11,103] Register - Step 09 - Verify success register message is displayed
+[INFO ] [2023-05-17 09:32:11,538] Login - Step 05 - Init home page
+[INFO ] [2023-05-17 09:32:11,538] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-05-17 09:32:12,393] Login - Step 01 - Click to login link
+[INFO ] [2023-05-17 09:32:12,647] OS name = windows 11
+[INFO ] [2023-05-17 09:32:12,648] Driver instance name = remotewebdriver: chrome on windows (2478a90b0c9e4da59e18749b11702650)
+[INFO ] [2023-05-17 09:32:14,636] Login - Step 02 - Enter to email textbox with values: royal.conroy@gmail.com
+[INFO ] [2023-05-17 09:32:16,495] Login - Step 03 - Enter to password textbox with values: ^KW&b%&fos&
+[INFO ] [2023-05-17 09:32:18,302] Login - Step 04 - Click to login button
+[INFO ] [2023-05-17 09:32:20,613] Login - Step 05 - Init home page
+[INFO ] [2023-05-17 09:32:20,613] Login - Step 06 - Verify 'My Account' link is displayed
+[INFO ] [2023-05-17 09:32:21,911] OS name = windows 11
+[INFO ] [2023-05-17 09:32:21,911] Driver instance name = remotewebdriver: firefox on mac (68849c37c6974fa49b4353f40c520e6c)
